@@ -1,1 +1,113 @@
 /*  your css code here. If applicable */
+    /* Apply body background color */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke /* Provided body background color */
+}
+
+/* Header styling */
+.header {
+  background-color: #011e29; /* Provided header background color */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-inline:20px;
+}
+
+/* Latest News Section styling */
+.latest-news-section {
+  background-color: #ffffff;
+  padding: 10px;
+  width:auto;
+  height: 150px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.maincontent {
+    text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  width:70%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.latest-news-section h2 {
+  color: #011e29;
+  text-align: center;
+
+}
+
+.latest-news-section ul {
+  list-style: disc inside;
+  margin: 0;
+  padding: 0;
+}
+
+.latest-news-section li {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #333;
+  width:250px;
+  text-align:center;
+}
+#mypara {
+  margin: 10px ;
+  font-size: 16px;
+  color: #333;
+  font-family: 'Times New Roman', Times, serif;
+
+  text-align:center;
+}
+
+/* Pictorial News Section styling */
+.pictorial-news-section {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pictorial-news-section h5 {
+  color: #011e29;
+  margin-top: 2px;
+}
+.container{
+      display: flex;
+      margin-inline: 40px;
+    
+}
+.images{
+    display: flex;
+    flex-direction: column;
+       
+      align-items: center;
+   margin:auto;
+   width:auto;
+   height: auto;
+
+   
+}
+
+.pictorial-news-section .images img {
+  border-radius: 2px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  width: 100px;
+  height: 100px;
+  border-radius: 2px;
+  margin-top: 1 px;
+  margin-bottom: 1px;
+}
+
+.pictorial-news-section .images img:hover {
+  transform: scale(1.05);
+}
